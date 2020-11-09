@@ -1,0 +1,16 @@
+#pdf_list_view {
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    //float:left;
+    width:50%;
+    max-width:50%;
+
+    height:500px;
+    //border:1px solid #000000;
+    //overflow:auto;
+    word-wrap:normal;
+    //white-space:pre;
+    //padding:10px 15px;
+    overflow-y:scroll;
+}

@@ -1,0 +1,40 @@
+#som_list_view {
+    float:left;
+    width:50%;
+    max-width:600%;
+}
+
+#debug_view {
+    margin-left: 50px;
+    height:100px;
+    border:1px solid #000000;
+    overflow:auto;
+    word-wrap:normal;
+    white-space:pre;
+    padding:10px 15px;
+    overflow-y:scroll;
+    display: none;
+}
+
+#zoom_view {
+    margin-left: 20px;
+    height:10px;
+    border:1px solid #000000;
+    overflow:auto;
+    word-wrap:normal;
+    white-space:pre;
+    padding:10px 15px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    //height: 160px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}

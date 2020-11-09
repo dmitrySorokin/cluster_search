@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/pdf_view.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/som_view.css') }}">
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/external/socket.io.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/external/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/external/d3.v3.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/external/d3.hexbin.v0.min.js') }}"></script>
+
+
+<body>
+    <div id="som_list_view">
+        <div id="zoom_view"></div>
+        <div id="som_view"></div>
+        <div id="debug_view"></div>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/som_view.js') }}"></script>
+
+    </div>
+    <div id="pdf_list_view">
+        <div id="pdf_links"></div>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/pdf_view.js') }}"></script>
+    </div>
+</body>
+
+
+{% endblock %}
+

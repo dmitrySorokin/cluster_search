@@ -1,2 +1,2 @@
-<img src="cover.gif" width="40" height="40" />
+<img src="cover.gif" width="640" height="640" />
 
